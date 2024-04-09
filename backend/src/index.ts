@@ -15,6 +15,11 @@ app.use(cors());
 app.get("/", (req: Request, res: Response) => {
   res.send({ message: "Hello World!" });
 });
+
+app.get("/health", async(req: Request, res: Response) => {
+  res.send({message: "Health is Ok!"});
+});
+
 app.use("/api/my/user", MyUserRoute);
 
 app.listen(7000, () => {
