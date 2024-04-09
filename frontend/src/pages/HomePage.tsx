@@ -14,7 +14,7 @@ const HomePage= ()=> {
                 <img src={land} alt="" />
                 <div className="flex flex-col items-center justify-center gap-4 text-center">
                     <span className="font-bold text-3xl tracking-tighter">
-                        💰 Track Your Expenses
+                        💰 Track Your Food
                     </span>
                     <span>
                         Download our app
