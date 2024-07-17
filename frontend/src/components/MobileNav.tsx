@@ -27,7 +27,7 @@ const MobileNav = () => {
               {user?.given_name}
             </span>
           ) : (
-            <span>CaféFlow</span>
+            <span> CaféFlow</span>
           )}
         </SheetTitle>
         <Separator />
